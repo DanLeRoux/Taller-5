@@ -1,0 +1,220 @@
+html,body{
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        background: #383838;
+        }
+@font-face{
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+}
+h1,h2{
+    font-family: Roboto;
+}
+.Usuario{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 547px;
+    top: 332px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.CContrasenia{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 1052px;
+    top: 750px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.Pais{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 547px;
+    top: 430px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.Nombre{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 547px;
+    top: 540px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.Apellido{
+position: absolute;
+width: 321px;
+height: 68px;
+left: 547px;
+top: 650px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.Direccion{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 1052px;
+    top: 332px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.Telefono{
+position: absolute;
+width: 321px;
+height: 68px;
+left: 1052px;
+top: 430px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.Cedula{
+position: absolute;
+width: 321px;
+height: 68px;
+left: 547px;
+top: 750px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+.Email{
+    position: absolute;
+    width: 321px;
+    height: 68px;
+    left: 1052px;
+    top: 540px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.Contrasenia{
+position: absolute;
+width: 321px;
+height: 68px;
+left: 1052px;
+top: 650px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+}
+.Registro{
+position: absolute;
+width: 389px;
+height: 86px;
+left: 547px;
+top: 150px;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+color: #000000;
+}
+.DatosUsuario{
+position: absolute;
+width: 389px;
+height: 43px;
+left: 549px;
+top: 217px;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+color: #000000;
+}
+.Blur{
+    position: absolute;
+    width: 879px;
+    height: 578px;
+    left: 520px;
+    top: 282px; 
+}
+ 
+input.i-text, textarea {
+    display: none;
+  }
+  
+
+  /* lo muestros si está seleccionado value=texto */
+  input.i-radio[value="texto"]:checked ~ textarea{
+    display: block;
+  }
+  .Formulario{
+    font-family: Roboto;
+    position: absolute;
+    left: 520px;
+    top: 891px;
+  }
+.Button{
+    font-family: Roboto;
+    position: absolute;
+    width: 209px;
+    height: 68px;
+    left: 856px;
+    top: 891px;
+}
+.btn-secondary,.btn-secondary:visited,.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{
+    background: #000000;
+    border-color: #000000;
+    opacity: 0.9; 
+}
+.form_control{
+position: absolute;
+width: 321px;
+height: 68px;
+left: 547px;
+top: 382px;
+}
+
+background{
+    background-image: url(Back.png);
+    position: absolute;
+    width: 1272px;
+    height: 1080px;
+    left: 324px;
+    top: 0px;   
+}
